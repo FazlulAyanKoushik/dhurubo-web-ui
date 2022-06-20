@@ -1,7 +1,6 @@
 <div class="card">
   <!--** card-img ***-->
   <div class="card-img">
-    <!-- <a [routerLink]="['/product-details', product?.productSlug]"> -->
     <a [routerLink]="['/', product?.brandSlug, product?.categorySlug, product?.productSlug]">
       <img [defaultImage]="'/assets/images/placeholder/test.png'" [lazyLoad]="product.images[0]"
            [alt]="product?.productName"></a>
@@ -22,15 +21,7 @@
     <div class="rating-view">
       <app-product-rating-view [ratingValue]="4.5"></app-product-rating-view>
     </div>
-<!--    <div class="card-rating">-->
-<!--      <ul>-->
-<!--        <li><i class="fa fa-star"></i></li>-->
-<!--        <li><i class="fa fa-star"></i></li>-->
-<!--        <li><i class="fa fa-star"></i></li>-->
-<!--        <li><i class="fa fa-star"></i></li>-->
-<!--        <li><i class="fa fa-star"></i></li>-->
-<!--      </ul>-->
-<!--    </div>-->
+
     <!--** Card-discription**-->
     <div class="card-link">
       <!-- <a [routerLink]="['/product-details', product?.productSlug]">{{product?.productName}}</a> -->
@@ -47,12 +38,11 @@
       <!--** Card-icon_menu **-->
       <div class="card-icon-menu">
         <ul>
-          <li [fxHide]="product?.quantity <= 0"><a (click)="addToCart($event)"><i class="fas fa-shopping-cart"></i></a></li>
           <li><a (click)="openComponentDialog({viewProduct: product})"><i class="fa fa-eye"></i></a></li>
           <li><a *ngIf="ifLoggedIn()"
                  color="accent"
                  class="btn-wishlist"
-                 (click)="addToWishlistItemAfterCheck()"><i class="fa fa-heart"></i></a></li>
+                 (click)="addToWishlistItemAfterCheck()"><mat-icon>compare_arrows</mat-icon></a></li>
 <!--          <li><a href="#"><i class="fa fa-clone"></i></a></li>-->
           <li>
             <a mat-mini-fab color="primary" (click)="addToCompareList($event, product)"><mat-icon>compare_arrows</mat-icon></a>
@@ -60,6 +50,10 @@
 
         </ul>
       </div>
+
+    </div>
+    <div class="add-cart-btn">
+     <a  [fxHide]="product?.quantity <= 0" (click)="addToCart($event)" >Add to Cart</a>
     </div>
   </div>
 </div>

@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 230px;
+  height: 200px;
   position: relative;
   z-index: 10;
   margin-bottom: 15px;
@@ -66,7 +66,7 @@
   display: inline-block;
   color: #000;
   font-weight: 600;
-  background-color:#ffd200;
+  background-color:#52e02f;
   padding: 1px 10px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -81,7 +81,7 @@
   display: inline-block;
   color: #fff;
   font-weight: 600;
-  background-color:#be0101;
+  background-color:#6AA84F;
   padding: 1px 10px;
   box-sizing: border-box;
   border-radius: 5px;
@@ -100,32 +100,7 @@
   margin-bottom: 0;
 }
 
-//.card-rating {
-//  display: block;
-//  margin-bottom: 10px;
-//}
-//
-//.card-rating ul {
-//  list-style: none;
-//  padding: 0;
-//  margin: 0;
-//}
-//
-//.card-rating ul li{
-//  display: inline-block;
-//  margin: 0;
-//  margin-right: 3px;
-//
-//}
-//.card-rating ul li i{
-//  color: #f2ba22;
-//  font-style: normal;
-//  font-family: 'Font Awesome 5 Free';
-//  font-size: 14px;
-//}
-//.card-rating ul li:last-child i{
-//  color: #cacaca;
-//}
+
 .card-link{
   margin-bottom: 10px;
 }
@@ -144,7 +119,7 @@
 }
 
 .card-link a:hover {
-  color: #be0101;
+  color:#6AA84F;
 }
 
 .price-icon {
@@ -163,7 +138,7 @@
 }
 
 .main-price {
-  color: #be0101;
+  color:  #6AA84F;
   font-size: 19px;
   font-family: $font-en-primary;
   display: block;
@@ -172,7 +147,7 @@
 }
 
 .main-price span {
-  color: #be0101;
+  color:  #6AA84F;
   font-weight: 400;
   font-size: 15px;
 }
@@ -192,8 +167,9 @@
   transition: all 0.3s linear;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50px;
   z-index: 16;
+  
 }
 
 .card-icon-menu ul {
@@ -213,9 +189,9 @@
 
 .card-icon-menu ul li a {
   cursor: pointer;
-  width: 30px;
-  height: 30px;
-  background-color: #2457AA;
+  width: 36px;
+  height: 36px;
+  background-color: #6AA84F;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -232,7 +208,7 @@
 }
 
 .card-icon-menu ul li a:hover {
-  background-color: #c10e0e;
+  background-color:  #6AA84F;
 }
 
 .card:hover .card-icon-menu {
@@ -265,4 +241,23 @@
   .card-img img{
     max-height: 140px;
   }
+}
+.add-cart-btn{
+  background-color: #6AA84F;
+  text-align: center;
+  border-radius: 5px;
+  padding: 12px;
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+.add-cart-btn:hover{
+ background-color: #FFD200;
+ color: #000;
 }

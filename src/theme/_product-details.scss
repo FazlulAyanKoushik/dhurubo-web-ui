@@ -62,7 +62,7 @@
   }
   .out-stock {
     color: #fff;
-    background-color:#be0101;
+    background-color: #6AA84F;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     padding: 6px 12px;
@@ -108,7 +108,7 @@
 }
 
 .product-title h2 {
-  color: #be0101;
+  color:  #6AA84F;
   font-family: 'Poppins', sans-serif;
   display: block;
   font-style: normal;
@@ -213,7 +213,7 @@
 }
 
 .product-price h3 {
-  color: #be0101;
+  color:  #6AA84F;
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -383,7 +383,7 @@
   padding: 1px 0px;
   text-align: center;
   box-sizing: border-box;
-  background-color: #be0101;
+  background-color:  #6AA84F;
   border-radius: 3px;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
@@ -508,7 +508,7 @@
   cursor: pointer;
 
   &.active {
-    background-color: #be0101;
+    background-color:  #6AA84F;
     color: #fff;
 
     &:hover {
@@ -518,7 +518,7 @@
 }
 
 .policy-menu ul li a:hover{
-  color: #be0101;
+  color:  #6AA84F;
 }
 
 .policy-menu ul li a:focus{
