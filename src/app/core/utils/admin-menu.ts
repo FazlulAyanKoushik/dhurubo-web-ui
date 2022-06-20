@@ -395,26 +395,26 @@ export const menuItemsAdmin: MenuAdmin[] = [
     href: null,
     target: null
   },
-  {
-    id: '45yz',
-    title: 'Warranty Dashboard',
-    icon: 'attach_money',
-    hasSubMenu: false,
-    parentId: '4',
-    routerLink: 'warranty-dashboard',
-    href: null,
-    target: null
-  },
-  {
-    id: '45y56',
-    title: 'Product Authenticators',
-    icon: 'attach_money',
-    hasSubMenu: false,
-    parentId: '4',
-    routerLink: 'product-authenticators',
-    href: null,
-    target: null
-  },
+  // {
+  //   id: '45yz',
+  //   title: 'Warranty Dashboard',
+  //   icon: 'attach_money',
+  //   hasSubMenu: false,
+  //   parentId: '4',
+  //   routerLink: 'warranty-dashboard',
+  //   href: null,
+  //   target: null
+  // },
+  // {
+  //   id: '45y56',
+  //   title: 'Product Authenticators',
+  //   icon: 'attach_money',
+  //   hasSubMenu: false,
+  //   parentId: '4',
+  //   routerLink: 'product-authenticators',
+  //   href: null,
+  //   target: null
+  // },
   // Roles Users
   {
     id: '631',
@@ -482,46 +482,46 @@ export const menuItemsAdmin: MenuAdmin[] = [
 
 
   // Parent Reviews
-  {
-    id: 'push123',
-    title: 'Push Notification',
-    icon: 'notifications',
-    hasSubMenu: true,
-    parentId: null,
-    routerLink: null,
-    href: null,
-    target: null
-  },
-  {
-    id: 'p10',
-    title: 'App List',
-    icon: 'list',
-    hasSubMenu: false,
-    parentId: 'push123',
-    routerLink: null,
-    href: 'https://app.onesignal.com',
-    target: '_blank'
-  },
-  {
-    id: 'p11',
-    title: 'Dashboard',
-    icon: 'space_dashboard',
-    hasSubMenu: false,
-    parentId: 'push123',
-    routerLink: null,
-    href: 'https://app.onesignal.com/apps/133cae47-429e-44a4-bf2a-34a47562793c',
-    target: '_blank'
-  },
-  {
-    id: 'p12',
-    title: 'Add Notification',
-    icon: 'add',
-    hasSubMenu: false,
-    parentId: 'push123',
-    routerLink: null,
-    href: 'https://app.onesignal.com/apps/133cae47-429e-44a4-bf2a-34a47562793c/notifications/new',
-    target: '_blank'
-  },
+  // {
+  //   id: 'push123',
+  //   title: 'Push Notification',
+  //   icon: 'notifications',
+  //   hasSubMenu: true,
+  //   parentId: null,
+  //   routerLink: null,
+  //   href: null,
+  //   target: null
+  // },
+  // {
+  //   id: 'p10',
+  //   title: 'App List',
+  //   icon: 'list',
+  //   hasSubMenu: false,
+  //   parentId: 'push123',
+  //   routerLink: null,
+  //   href: 'https://app.onesignal.com',
+  //   target: '_blank'
+  // },
+  // {
+  //   id: 'p11',
+  //   title: 'Dashboard',
+  //   icon: 'space_dashboard',
+  //   hasSubMenu: false,
+  //   parentId: 'push123',
+  //   routerLink: null,
+  //   href: 'https://app.onesignal.com/apps/133cae47-429e-44a4-bf2a-34a47562793c',
+  //   target: '_blank'
+  // },
+  // {
+  //   id: 'p12',
+  //   title: 'Add Notification',
+  //   icon: 'add',
+  //   hasSubMenu: false,
+  //   parentId: 'push123',
+  //   routerLink: null,
+  //   href: 'https://app.onesignal.com/apps/133cae47-429e-44a4-bf2a-34a47562793c/notifications/new',
+  //   target: '_blank'
+  // },
   // Parent
   {
     id: '7',
@@ -1037,26 +1037,26 @@ export const menuItemsSuperAdmin: MenuAdmin[] = [
     href: null,
     target: null
   },
-  {
-    id: '45yz',
-    title: 'Warranty Dashboard',
-    icon: 'attach_money',
-    hasSubMenu: false,
-    parentId: '4',
-    routerLink: 'warranty-dashboard',
-    href: null,
-    target: null
-  },
-  {
-    id: '45y56',
-    title: 'Product Authenticators',
-    icon: 'attach_money',
-    hasSubMenu: false,
-    parentId: '4',
-    routerLink: 'product-authenticators',
-    href: null,
-    target: null
-  },
+  // {
+  //   id: '45yz',
+  //   title: 'Warranty Dashboard',
+  //   icon: 'attach_money',
+  //   hasSubMenu: false,
+  //   parentId: '4',
+  //   routerLink: 'warranty-dashboard',
+  //   href: null,
+  //   target: null
+  // },
+  // {
+  //   id: '45y56',
+  //   title: 'Product Authenticators',
+  //   icon: 'attach_money',
+  //   hasSubMenu: false,
+  //   parentId: '4',
+  //   routerLink: 'product-authenticators',
+  //   href: null,
+  //   target: null
+  // },
   // Roles Users
   {
     id: '631',
@@ -1124,46 +1124,46 @@ export const menuItemsSuperAdmin: MenuAdmin[] = [
 
 
   // Parent Reviews
-  {
-    id: 'push123',
-    title: 'Push Notification',
-    icon: 'notifications',
-    hasSubMenu: true,
-    parentId: null,
-    routerLink: null,
-    href: null,
-    target: null
-  },
-  {
-    id: 'p10',
-    title: 'App List',
-    icon: 'list',
-    hasSubMenu: false,
-    parentId: 'push123',
-    routerLink: null,
-    href: 'https://app.onesignal.com',
-    target: '_blank'
-  },
-  {
-    id: 'p11',
-    title: 'Dashboard',
-    icon: 'space_dashboard',
-    hasSubMenu: false,
-    parentId: 'push123',
-    routerLink: null,
-    href: 'https://app.onesignal.com/apps/133cae47-429e-44a4-bf2a-34a47562793c',
-    target: '_blank'
-  },
-  {
-    id: 'p12',
-    title: 'Add Notification',
-    icon: 'add',
-    hasSubMenu: false,
-    parentId: 'push123',
-    routerLink: null,
-    href: 'https://app.onesignal.com/apps/133cae47-429e-44a4-bf2a-34a47562793c/notifications/new',
-    target: '_blank'
-  },
+  // {
+  //   id: 'push123',
+  //   title: 'Push Notification',
+  //   icon: 'notifications',
+  //   hasSubMenu: true,
+  //   parentId: null,
+  //   routerLink: null,
+  //   href: null,
+  //   target: null
+  // },
+  // {
+  //   id: 'p10',
+  //   title: 'App List',
+  //   icon: 'list',
+  //   hasSubMenu: false,
+  //   parentId: 'push123',
+  //   routerLink: null,
+  //   href: 'https://app.onesignal.com',
+  //   target: '_blank'
+  // },
+  // {
+  //   id: 'p11',
+  //   title: 'Dashboard',
+  //   icon: 'space_dashboard',
+  //   hasSubMenu: false,
+  //   parentId: 'push123',
+  //   routerLink: null,
+  //   href: 'https://app.onesignal.com/apps/133cae47-429e-44a4-bf2a-34a47562793c',
+  //   target: '_blank'
+  // },
+  // {
+  //   id: 'p12',
+  //   title: 'Add Notification',
+  //   icon: 'add',
+  //   hasSubMenu: false,
+  //   parentId: 'push123',
+  //   routerLink: null,
+  //   href: 'https://app.onesignal.com/apps/133cae47-429e-44a4-bf2a-34a47562793c/notifications/new',
+  //   target: '_blank'
+  // },
   // Parent
   {
     id: '7',
